@@ -5,32 +5,31 @@ html{
 h1{
 	position: absolute;
 	background-color: white;
-	left: 42%;
-	font-size: 5em;
-	top: 45%;
+	font-size: 4rem;
+	width: 90%;
+	left: 5%;
 }
 
 .container{
-	position: absolute;
 	width: 99%;
-	height: 99%;
+	height: 53em;
 }
 .box{
-	position: absolute;
+	position: relative;
 }
 
 #box1{
 	background-color: #96D7D9;
-	height: 70%;
-	width: 45%;
-	left: 20%;
+	height: 65%;
+	width: 50%;
 	top: 10%;
+	margin: 5% auto;
 }
 
 #box2{
-	height: 50%;
-	width: 43%;
-	left: 40%;
+	height: 80%;
+	width: 80%;
+	left: 50%;
 	top: 40%;
-	border: 0.4em solid black;
+	border: 6.4px solid black;
 }
