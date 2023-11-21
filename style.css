@@ -1,19 +1,40 @@
 html{
 	font-size: 16px;
 }
-
-h1{
+/*First part*/
+#button{
 	position: absolute;
 	background-color: white;
 	font-size: 4rem;
-	width: 90%;
-	left: 5%;
+	left: 2%;
+	padding: 0.2em;
+	border-radius: 0.2em;
+	box-shadow: 0.2em 0.2em #103233;
+	user-select: none;
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+#button:hover{
+	background-color: #D3ECED;
+	cursor: pointer;
+}
+#button:active {
+	background-color: #94A5A6;
+	color: white;
+	box-shadow: none;
 }
 
 .container{
 	width: 99%;
 	height: 53em;
+	
 }
+
 .box{
 	position: relative;
 }
@@ -32,4 +53,27 @@ h1{
 	left: 50%;
 	top: 40%;
 	border: 6.4px solid black;
+}
+
+/*Second Part*/
+
+#container2 {
+	display: inline-flex;
+	width: 0;
+	height: 0;
+	justify-content: center;
+}
+
+#boxP1{
+	background-color: #96D7D9;
+	height: 81%;
+	width: 30%;
+	top: 15%;
+}
+
+#boxP2{
+	height: 80%;
+	width: 25%;
+	top: 15%;
+	border: 0px solid black;
 }
